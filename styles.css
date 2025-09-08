@@ -1,0 +1,66 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+:root {
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+
+  --color-brown-800: hsl(14, 45%, 36%);
+
+  --color-rose-50: hsl(330, 100%, 98%);
+  --color-rose-800: hsl(332, 51%, 32%);
+
+  --font-title: "Young Serif", serif;
+  --font-body: "Outfit", sans-serif;
+}
+
+body {
+  color: var(--color-stone-600);
+  font-family: var(--font-body);
+}
+
+.image-header {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-main {
+  margin: 25px;
+}
+
+h1 {
+  color: var(--color-stone-900);
+  font-family: var(--font-title);
+}
+
+.preparation-container {
+  background-color: var(--color-rose-50);
+  padding: 1px 20px 20px;
+  border-radius: 10px;
+}
+.preparation-title {
+  color: var(--color-rose-800);
+}
+.list {
+  display: grid;
+  gap: 10px;
+}
+.list-item {
+  list-style: disc;
+  margin-left: 30px;
+}
+.preparation-span {
+  font-weight: 700;
+}
+
+.title {
+  color: var(--color-brown-800);
+  font-family: var(--font-title);
+}
+
+hr {
+  margin: 40px 0;
+}
